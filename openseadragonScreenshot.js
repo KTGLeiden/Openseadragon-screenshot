@@ -312,7 +312,7 @@
 	    		}
 
 				var Canvas = null;
-				if(viewer.scalebarInstance && document.getElementById("screenshotDrawScalebar").checked){
+				if(this.showOptions && viewer.scalebarInstance && document.getElementById("screenshotDrawScalebar").checked){
 		            var imgCanvas = viewer.drawer.canvas;
 		            Canvas = document.createElement("canvas");
 		            Canvas.width = imgCanvas.width;
